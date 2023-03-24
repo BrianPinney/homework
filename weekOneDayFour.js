@@ -17,18 +17,24 @@ const studen= {
 //4. Create a function that removes the first element of the array bellow and adds "kiwi" to the end of the array.
 
 
-const fruitBucket= [
-    "mango",
+const fruitBucket1= [
+    "Mango",
     "Lychee",
-    "strawberry",
+    "Strawberry",
     "Papaya"
 
 ]
-function fruitPicker(){
-    fruitBucket.shift()
-    fruitBucket.push("kiwi")  
-     return fruitBucket
+
+function fruitPicker(fruitPlant1, fruit1,fruit2){
+
+  fruitPlant1.shift()
+  fruitPlant1.pop()
+  fruitPlant1.push(fruit1)
+  fruitPlant1.unshift(fruit2)
+
+  return fruitPlant1
+
 }
-    
-console.log(fruitPicker())
-console.log(fruitBucket)
+
+
+console.log(fruitPicker(fruitBucket1, "kiwi", "watermelon"))

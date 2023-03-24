@@ -1,10 +1,14 @@
 //1. What is the technical term used to create a variable in JavaScript?
 
-// Answer: Declare
+  const createVarDef= "Declare"
+
+  console.log(createVarDef)
 
 //2. What is the technical term used to call or execute a function in JavaScript?
 
-//Answer: Invoke
+const executeFunctionDef= "Invoke"
+
+  console.log(executeFunctionDef)
 
 //3. Create and object called student, including 2 properties with their value.
 

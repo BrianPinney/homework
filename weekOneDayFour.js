@@ -24,10 +24,11 @@ const fruitBucket= [
     "Papaya"
 
 ]
-function fruitPicker(take,add){
-        return take,add
+function fruitPicker(){
+    fruitBucket.shift()
+    fruitBucket.push("kiwi")  
+     return fruitBucket
 }
-    const pickFruit = fruitBucket.shift()
-    const placeFruit = fruitBucket.push("kiwi")
-console.log(fruitPicker(pickFruit,placeFruit))
+    
+console.log(fruitPicker())
 console.log(fruitBucket)
